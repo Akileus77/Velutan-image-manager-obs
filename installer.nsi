@@ -82,10 +82,11 @@ Section "MainSection" SEC01
     ; Copy plugin DLL
     File "build\Release\velutan-image-manager.dll"
     
-    ; Copy Qt dependencies
-    File "build\Release\Qt6Core.dll"
-    File "build\Release\Qt6Gui.dll"
-    File "build\Release\Qt6Widgets.dll"
+    ; Copy Qt dependencies (optional - OBS usually has these)
+    ; If these fail, it's okay - OBS has its own Qt DLLs
+    File /nonfatal "build\Release\Qt6Core.dll"
+    File /nonfatal "build\Release\Qt6Gui.dll"
+    File /nonfatal "build\Release\Qt6Widgets.dll"
     
     ; Set output path to data directory
     SetOutPath "$INSTDIR\data\obs-plugins\velutan-image-manager"
