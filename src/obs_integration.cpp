@@ -1,6 +1,11 @@
 #include "obs_integration.hpp"
 
 #include <QDebug>
+#include <QImage>
+#include <QPainter>
+#include <QColor>
+#include <QStandardPaths>
+#include <QDir>
 
 ObsIntegration::ObsIntegration(QObject *parent)
     : QObject(parent)
@@ -220,6 +225,26 @@ bool ObsIntegration::isVisible(const QString &sceneName, const QString &sourceNa
     return obs_sceneitem_visible(item);
 }
 
+void ObsIntegration::bringPinnedToFront(const QString &sceneName, const QStringList &pinnedSourceNames)
+{
+    if (pinnedSourceNames.isEmpty())
+        return;
+        
+    obs_scene_t *scene = getScene(sceneName);
+    if (!scene)
+        return;
+    
+    // Bring each pinned source to the top, in reverse order so the first in
+    // the list ends up at the very top
+    for (int i = pinnedSourceNames.size() - 1; i >= 0; --i) {
+        const QString &sourceName = pinnedSourceNames[i];
+        obs_sceneitem_t *item = findSceneItem(scene, sourceName);
+        if (item) {
+            obs_sceneitem_set_order(item, OBS_ORDER_MOVE_TOP);
+        }
+    }
+}
+
 obs_scene_t *ObsIntegration::getScene(const QString &sceneName)
 {
     obs_source_t *source = obs_get_source_by_name(sceneName.toUtf8().constData());
@@ -239,4 +264,187 @@ obs_sceneitem_t *ObsIntegration::findSceneItem(obs_scene_t *scene, const QString
     // it takes a source name string.
     obs_sceneitem_t *item = obs_scene_find_source(scene, sourceName.toUtf8().constData());
     return item;
+}
+
+void ObsIntegration::getCanvasSize(uint32_t &width, uint32_t &height)
+{
+    // Get OBS video info to determine canvas size
+    obs_video_info ovi;
+    if (obs_get_video_info(&ovi)) {
+        width = ovi.base_width;
+        height = ovi.base_height;
+    } else {
+        // Default fallback
+        width = 1920;
+        height = 1080;
+    }
+}
+
+QString ObsIntegration::generateGridImage(uint32_t width, uint32_t height, int gridSize,
+                                          const QString &color, int opacity)
+{
+    // Create a transparent image
+    QImage image(width, height, QImage::Format_ARGB32);
+    image.fill(Qt::transparent);
+    
+    // Setup painter
+    QPainter painter(&image);
+    painter.setRenderHint(QPainter::Antialiasing, false);  // Crisp lines
+    
+    // Parse color and set opacity
+    QColor gridColor(color);
+    gridColor.setAlpha(opacity);
+    
+    QPen pen(gridColor);
+    pen.setWidth(1);
+    painter.setPen(pen);
+    
+    // Draw vertical lines
+    for (uint32_t x = 0; x <= width; x += gridSize) {
+        painter.drawLine(x, 0, x, height);
+    }
+    
+    // Draw horizontal lines
+    for (uint32_t y = 0; y <= height; y += gridSize) {
+        painter.drawLine(0, y, width, y);
+    }
+    
+    painter.end();
+    
+    // Save to temporary file
+    QString tempDir = QStandardPaths::writableLocation(QStandardPaths::TempLocation);
+    QString gridPath = tempDir + "/velutan_grid_overlay.png";
+    
+    if (!image.save(gridPath, "PNG")) {
+        qWarning() << "[Velutan] Failed to save grid image to" << gridPath;
+        return QString();
+    }
+    
+    qDebug() << "[Velutan] Grid image generated:" << gridPath;
+    return gridPath;
+}
+
+bool ObsIntegration::ensureGridOverlay(const QString &sceneName, const QString &gridImagePath,
+                                       bool showInStream)
+{
+    Q_UNUSED(showInStream);  // For future implementation with private sources
+    
+    if (!ensureScene(sceneName))
+        return false;
+        
+    obs_scene_t *scene = getScene(sceneName);
+    if (!scene)
+        return false;
+    
+    QString gridSourceName = "Velutan_Grid_Overlay";
+    
+    // Check if grid source already exists
+    obs_source_t *existing = obs_get_source_by_name(gridSourceName.toUtf8().constData());
+    
+    if (existing) {
+        // Update the image path
+        obs_data_t *settings = obs_source_get_settings(existing);
+        obs_data_set_string(settings, "file", gridImagePath.toUtf8().constData());
+        obs_source_update(existing, settings);
+        obs_data_release(settings);
+        
+        // Ensure it's in the scene
+        obs_sceneitem_t *item = obs_scene_find_source(scene, gridSourceName.toUtf8().constData());
+        if (!item) {
+            item = obs_scene_add(scene, existing);
+            if (item) {
+                // Move to top (above everything except pinned sources)
+                obs_sceneitem_set_order(item, OBS_ORDER_MOVE_TOP);
+                
+                // Make it fullscreen
+                obs_video_info ovi;
+                if (obs_get_video_info(&ovi)) {
+                    obs_bounds_type boundsType = OBS_BOUNDS_STRETCH;
+                    struct vec2 bounds;
+                    bounds.x = ovi.base_width;
+                    bounds.y = ovi.base_height;
+                    obs_sceneitem_set_bounds_type(item, boundsType);
+                    obs_sceneitem_set_bounds(item, &bounds);
+                }
+            }
+        }
+        
+        obs_source_release(existing);
+        return true;
+    }
+    
+    // Create new grid source
+    obs_data_t *settings = obs_data_create();
+    obs_data_set_string(settings, "file", gridImagePath.toUtf8().constData());
+    
+    obs_source_t *gridSource = obs_source_create("image_source", gridSourceName.toUtf8().constData(),
+                                                  settings, nullptr);
+    if (!gridSource) {
+        qWarning() << "[Velutan] Failed to create grid overlay source";
+        obs_data_release(settings);
+        return false;
+    }
+    
+    // Add to scene
+    obs_sceneitem_t *item = obs_scene_add(scene, gridSource);
+    if (item) {
+        // Move to top
+        obs_sceneitem_set_order(item, OBS_ORDER_MOVE_TOP);
+        
+        // Make it fullscreen
+        obs_video_info ovi;
+        if (obs_get_video_info(&ovi)) {
+            obs_bounds_type boundsType = OBS_BOUNDS_STRETCH;
+            struct vec2 bounds;
+            bounds.x = ovi.base_width;
+            bounds.y = ovi.base_height;
+            obs_sceneitem_set_bounds_type(item, boundsType);
+            obs_sceneitem_set_bounds(item, &bounds);
+        }
+    }
+    
+    obs_source_release(gridSource);
+    obs_data_release(settings);
+    return true;
+}
+
+void ObsIntegration::toggleGridOverlay(const QString &sceneName, bool visible)
+{
+    obs_scene_t *scene = getScene(sceneName);
+    if (!scene)
+        return;
+    
+    QString gridSourceName = "Velutan_Grid_Overlay";
+    obs_sceneitem_t *item = findSceneItem(scene, gridSourceName);
+    
+    if (item) {
+        obs_sceneitem_set_visible(item, visible);
+        
+        if (visible) {
+            // Ensure it's on top when made visible
+            obs_sceneitem_set_order(item, OBS_ORDER_MOVE_TOP);
+        }
+    }
+}
+
+void ObsIntegration::snapSourceToGrid(const QString &sceneName, const QString &sourceName, int gridSize)
+{
+    obs_scene_t *scene = getScene(sceneName);
+    if (!scene)
+        return;
+    
+    obs_sceneitem_t *item = findSceneItem(scene, sourceName);
+    if (!item)
+        return;
+    
+    // Get current position
+    struct vec2 pos;
+    obs_sceneitem_get_pos(item, &pos);
+    
+    // Snap to nearest grid point
+    pos.x = round(pos.x / gridSize) * gridSize;
+    pos.y = round(pos.y / gridSize) * gridSize;
+    
+    // Set snapped position
+    obs_sceneitem_set_pos(item, &pos);
 }

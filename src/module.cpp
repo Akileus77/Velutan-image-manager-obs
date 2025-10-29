@@ -113,6 +113,6 @@ void obs_module_unload(void)
     if (g_dock) {
         obs_frontend_remove_dock("VelutanImageManager");
         // The dock widget will be deleted by OBS
-        g_dock = nullptr;
+    g_dock = nullptr;
     }
 }

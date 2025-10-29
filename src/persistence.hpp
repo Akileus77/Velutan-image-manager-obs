@@ -23,6 +23,15 @@ struct PersistenceConfig {
     bool dismissedTutorial = false;
     bool autoStretchBackgrounds = true;  // Auto-stretch backgrounds to screen size
     QMap<QString, QString> activeBackgrounds;  // scene name -> background asset ID
+    QStringList pinnedSources;  // Sources that should always stay on top (e.g., Camera, Player)
+    
+    // Grid system settings
+    bool gridEnabled = false;  // Grid overlay visible
+    int gridSize = 50;  // Grid cell size in pixels
+    bool gridShowInStream = false;  // Show grid in stream output (or only in preview)
+    bool gridSnapEnabled = true;  // Snap sources to grid when moving
+    QString gridColor = "#00FF00";  // Grid line color (green by default)
+    int gridOpacity = 128;  // Grid opacity (0-255)
 };
 
 /**

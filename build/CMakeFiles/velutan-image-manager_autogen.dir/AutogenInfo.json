@@ -288,9 +288,21 @@
 			null
 		],
 		[
+			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/GridSettingsDialog.hpp",
+			"Mu",
+			"YPKJ5OE7LN/moc_GridSettingsDialog.cpp",
+			null
+		],
+		[
 			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/HeaderBar.hpp",
 			"Mu",
 			"YPKJ5OE7LN/moc_HeaderBar.cpp",
+			null
+		],
+		[
+			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/PinnedSourcesDialog.hpp",
+			"Mu",
+			"YPKJ5OE7LN/moc_PinnedSourcesDialog.cpp",
 			null
 		],
 		[
@@ -498,7 +510,17 @@
 			null
 		],
 		[
+			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/GridSettingsDialog.cpp",
+			"Mu",
+			null
+		],
+		[
 			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/HeaderBar.cpp",
+			"Mu",
+			null
+		],
+		[
+			"C:/Users/Akika/Downloads/velutan-image-manager/src/ui/PinnedSourcesDialog.cpp",
 			"Mu",
 			null
 		],

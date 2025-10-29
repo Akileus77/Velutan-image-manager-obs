@@ -34,6 +34,12 @@
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\TutorialCard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\PinnedSourcesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\GridSettingsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\build\velutan-image-manager_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -70,6 +76,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\TutorialCard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\PinnedSourcesDialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\GridSettingsDialog.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

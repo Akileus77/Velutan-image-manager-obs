@@ -47,6 +47,9 @@ private slots:
     void onAssetAction(const Asset &asset, const QString &action);
     void onDismissTutorial(bool remember);
     void onAutoStretchChanged(bool enabled);
+    void onPinnedSourcesSettings();
+    void onGridToggled(bool enabled);
+    void onGridSettings();
 
 private:
     void loadLibrary();

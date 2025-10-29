@@ -5,6 +5,7 @@
 #include <QFile>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QJsonArray>
 #include <QDebug>
 
 static QString configFilePath()
@@ -52,6 +53,20 @@ PersistenceConfig loadConfig()
         cfg.activeBackgrounds[it.key()] = it.value().toString();
     }
     
+    // Load pinned sources
+    QJsonArray pinnedArray = obj.value("pinnedSources").toArray();
+    for (const QJsonValue &val : pinnedArray) {
+        cfg.pinnedSources << val.toString();
+    }
+    
+    // Load grid settings
+    cfg.gridEnabled = obj.value("gridEnabled").toBool(cfg.gridEnabled);
+    cfg.gridSize = obj.value("gridSize").toInt(cfg.gridSize);
+    cfg.gridShowInStream = obj.value("gridShowInStream").toBool(cfg.gridShowInStream);
+    cfg.gridSnapEnabled = obj.value("gridSnapEnabled").toBool(cfg.gridSnapEnabled);
+    cfg.gridColor = obj.value("gridColor").toString(cfg.gridColor);
+    cfg.gridOpacity = obj.value("gridOpacity").toInt(cfg.gridOpacity);
+    
     return cfg;
 }
 
@@ -72,6 +87,21 @@ bool saveConfig(const PersistenceConfig &config)
         activeBgs.insert(it.key(), it.value());
     }
     obj.insert("activeBackgrounds", activeBgs);
+    
+    // Save pinned sources
+    QJsonArray pinnedArray;
+    for (const QString &source : config.pinnedSources) {
+        pinnedArray.append(source);
+    }
+    obj.insert("pinnedSources", pinnedArray);
+    
+    // Save grid settings
+    obj.insert("gridEnabled", config.gridEnabled);
+    obj.insert("gridSize", config.gridSize);
+    obj.insert("gridShowInStream", config.gridShowInStream);
+    obj.insert("gridSnapEnabled", config.gridSnapEnabled);
+    obj.insert("gridColor", config.gridColor);
+    obj.insert("gridOpacity", config.gridOpacity);
     
     QJsonDocument doc(obj);
     QString path = configFilePath();

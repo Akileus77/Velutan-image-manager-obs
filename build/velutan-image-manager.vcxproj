@@ -471,6 +471,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\HeaderBar.cpp" />
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\Toast.cpp" />
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\TutorialCard.cpp" />
+    <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\PinnedSourcesDialog.cpp" />
+    <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\GridSettingsDialog.cpp" />
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\dock_widget.hpp" />
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\setup_dialog.hpp" />
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\obs_integration.hpp" />
@@ -480,6 +482,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\HeaderBar.hpp" />
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\Toast.hpp" />
     <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\TutorialCard.hpp" />
+    <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\PinnedSourcesDialog.hpp" />
+    <ClInclude Include="C:\Users\Akika\Downloads\velutan-image-manager\src\ui\GridSettingsDialog.hpp" />
     <ClCompile Include="C:\Users\Akika\Downloads\velutan-image-manager\build\velutan-image-manager_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>

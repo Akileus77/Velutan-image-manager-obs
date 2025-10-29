@@ -59,6 +59,31 @@ public:
      * scene.  If the source does not exist the return value is
      * false. */
     bool isVisible(const QString &sceneName, const QString &sourceName) const;
+    
+    /** Bring pinned sources (e.g., Camera, Player) to the front of the
+     * scene, ensuring they always stay on top regardless of other source
+     * additions or changes. */
+    void bringPinnedToFront(const QString &sceneName, const QStringList &pinnedSourceNames);
+    
+    /** Get canvas (base) resolution from OBS */
+    void getCanvasSize(uint32_t &width, uint32_t &height);
+    
+    /** Generate a grid overlay image and save it to a temporary file.
+     * Returns the path to the generated image. */
+    QString generateGridImage(uint32_t width, uint32_t height, int gridSize, 
+                              const QString &color, int opacity);
+    
+    /** Ensure that a grid overlay source exists in the specified scene.
+     * If showInStream is false, the source will be on a separate layer
+     * that's only visible in OBS preview. */
+    bool ensureGridOverlay(const QString &sceneName, const QString &gridImagePath, 
+                           bool showInStream);
+    
+    /** Toggle grid overlay visibility */
+    void toggleGridOverlay(const QString &sceneName, bool visible);
+    
+    /** Snap a source to grid alignment */
+    void snapSourceToGrid(const QString &sceneName, const QString &sourceName, int gridSize);
 
 private:
     obs_scene_t *getScene(const QString &sceneName);

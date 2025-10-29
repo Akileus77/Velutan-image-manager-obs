@@ -1,0 +1,57 @@
+# Velutan Image Manager v1.1.0 - Installation Guide
+
+## OPTION 1: AUTOMATIC INSTALLATION (Recommended)
+
+1. Run: Velutan-Image-Manager-v1.1.0-Installer.exe
+2. Follow the installer instructions
+3. Restart OBS Studio
+4. Go to: View -> Docks -> Velutan Image Manager
+
+## OPTION 2: MANUAL INSTALLATION
+
+### For Windows:
+
+1. Close OBS Studio completely
+
+2. Copy velutan-image-manager.dll to:
+   C:\Program Files\obs-studio\obs-plugins\64bit\
+
+3. (Optional) If OBS doesn't have Qt6 DLLs, also copy:
+   - Qt6Core.dll
+   - Qt6Gui.dll  
+   - Qt6Widgets.dll
+   To: C:\Program Files\obs-studio\bin\64bit\
+
+4. Restart OBS Studio
+
+5. Open the dock:
+   View -> Docks -> Velutan Image Manager
+
+## USAGE
+
+### Setup:
+1. Click "Auto Setup" button to create the Velutan_Main scene
+2. Add assets via: Tools -> Velutan Image Manager (Setup)
+
+### Features:
+- 📍 **Pinned Sources**: Configure sources that always stay on top
+  * Click "📍 Pinned Sources" button
+  * Add Camera, Player, Webcam names
+  * They'll automatically stay on top when characters are added
+
+- 🖼️ **Backgrounds**: Set scene backgrounds with theme selection
+- 👤 **Characters**: Add, show, hide, and manage characters
+- 🔍 **Search & Filter**: Find assets by theme and tags
+- ✏️ **Edit & Delete**: Modify or remove assets
+- 📌 **Active Highlighting**: Active assets appear at the top
+
+## Support
+
+GitHub: https://github.com/Akileus77/Velutan-image-manager-obs
+Issues: https://github.com/Akileus77/Velutan-image-manager-obs/issues
+
+## Version
+
+Velutan Image Manager v1.1.0
+Release Date: October 29, 2025
+

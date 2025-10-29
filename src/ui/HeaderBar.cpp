@@ -109,6 +109,41 @@ HeaderBar::HeaderBar(QWidget *parent)
         "QPushButton:pressed { background-color: #004578; }"
     );
     connect(m_autoButton, &QPushButton::clicked, this, &HeaderBar::onAutoSetupClicked);
+    
+    // Grid checkbox (HIDDEN - feature disabled for now)
+    m_gridCheckbox = new QCheckBox("📐 Grid", this);
+    m_gridCheckbox->setToolTip("Show grid overlay for precise positioning");
+    m_gridCheckbox->setChecked(false);
+    m_gridCheckbox->setVisible(false);  // HIDDEN
+    connect(m_gridCheckbox, &QCheckBox::toggled, this, &HeaderBar::gridToggled);
+    
+    // Grid settings button (HIDDEN - feature disabled for now)
+    QPushButton *gridSettingsBtn = new QPushButton("⚙️", this);
+    gridSettingsBtn->setToolTip("Grid settings (size, color, snap)");
+    gridSettingsBtn->setFixedSize(28, 28);
+    gridSettingsBtn->setVisible(false);  // HIDDEN
+    connect(gridSettingsBtn, &QPushButton::clicked, this, &HeaderBar::gridSettingsRequested);
+    
+    // Settings button for pinned sources - IMPROVED ICON
+    QPushButton *settingsBtn = new QPushButton("📍 Pinned Sources", this);
+    settingsBtn->setToolTip("Configure sources that always stay on top (Camera, Player, etc.)");
+    settingsBtn->setStyleSheet(
+        "QPushButton { "
+        "   background-color: #007ACC; "
+        "   border: none; "
+        "   border-radius: 6px; "
+        "   padding: 8px 16px; "
+        "   color: white; "
+        "   font-weight: 600; "
+        "   font-size: 11px; "
+        "}"
+        "QPushButton:hover { "
+        "   background-color: #005FA3; "
+        "   border: 2px solid #00A8FF; "
+        "}"
+        "QPushButton:pressed { background-color: #004578; }"
+    );
+    connect(settingsBtn, &QPushButton::clicked, this, &HeaderBar::pinnedSourcesSettingsRequested);
 
     // Assemble layout
     layout->addWidget(sceneLabel);
@@ -118,7 +153,11 @@ HeaderBar::HeaderBar(QWidget *parent)
     layout->addWidget(prefixLabel);
     layout->addWidget(m_prefixEdit, 1);
     layout->addWidget(m_autoStretchCheckbox);
+    // Grid controls hidden (feature disabled)
+    // layout->addWidget(m_gridCheckbox);
+    // layout->addWidget(gridSettingsBtn);
     layout->addWidget(m_autoButton);
+    layout->addWidget(settingsBtn);
 }
 
 void HeaderBar::setSceneList(const QStringList &scenes)
@@ -161,6 +200,11 @@ void HeaderBar::setOverlayPrefix(const QString &prefix)
 void HeaderBar::setAutoStretch(bool enabled)
 {
     m_autoStretchCheckbox->setChecked(enabled);
+}
+
+void HeaderBar::setGridEnabled(bool enabled)
+{
+    m_gridCheckbox->setChecked(enabled);
 }
 
 void HeaderBar::onSceneActivated(int index)

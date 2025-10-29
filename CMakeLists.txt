@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project definition
-project(velutan-image-manager LANGUAGES CXX)
+project(velutan-image-manager VERSION 1.1.0 LANGUAGES CXX)
 
 # The Velutan Image Manager is a native OBS Studio plugin written in C++17.  It
 # depends on the OBS SDK (libobs and the frontend API) and Qt Widgets for the
@@ -50,6 +50,8 @@ set(VELUTAN_SOURCES
     src/ui/HeaderBar.cpp
     src/ui/Toast.cpp
     src/ui/TutorialCard.cpp
+    src/ui/PinnedSourcesDialog.cpp
+    src/ui/GridSettingsDialog.cpp
 )
 
 set(VELUTAN_HEADERS
@@ -62,6 +64,8 @@ set(VELUTAN_HEADERS
     src/ui/HeaderBar.hpp
     src/ui/Toast.hpp
     src/ui/TutorialCard.hpp
+    src/ui/PinnedSourcesDialog.hpp
+    src/ui/GridSettingsDialog.hpp
 )
 
 # Enable Qt MOC (Meta Object Compiler) for Qt classes with Q_OBJECT

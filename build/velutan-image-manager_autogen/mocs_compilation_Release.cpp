@@ -3,6 +3,8 @@
 #include <UVLADIE3JM/moc_obs_integration.cpp>
 #include <UVLADIE3JM/moc_setup_dialog.cpp>
 #include <YPKJ5OE7LN/moc_AssetList.cpp>
+#include <YPKJ5OE7LN/moc_GridSettingsDialog.cpp>
 #include <YPKJ5OE7LN/moc_HeaderBar.cpp>
+#include <YPKJ5OE7LN/moc_PinnedSourcesDialog.cpp>
 #include <YPKJ5OE7LN/moc_Toast.cpp>
 #include <YPKJ5OE7LN/moc_TutorialCard.cpp>

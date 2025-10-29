@@ -1,0 +1,30 @@
+{
+  "backgrounds": [
+    {
+      "id": "bg_desert_day",
+      "name": "Desert - Day",
+      "file": "assets/backgrounds/desert_day.png",
+      "tags": ["desert", "day"]
+    },
+    {
+      "id": "bg_forest_night",
+      "name": "Forest - Night",
+      "file": "assets/backgrounds/forest_night.png",
+      "tags": ["forest", "night"]
+    }
+  ],
+  "characters": [
+    {
+      "id": "ch_knight01",
+      "name": "Knight A",
+      "file": "assets/characters/knight_a.png",
+      "tags": ["human", "melee"]
+    },
+    {
+      "id": "ch_orc01",
+      "name": "Orc Warrior",
+      "file": "assets/characters/orc_warrior.png",
+      "tags": ["orc", "melee"]
+    }
+  ]
+}

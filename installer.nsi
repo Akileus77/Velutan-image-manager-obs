@@ -12,7 +12,7 @@
 ; General
 
 !define PRODUCT_NAME "Velutan Image Manager"
-!define PRODUCT_VERSION "1.0.0"
+!define PRODUCT_VERSION "1.1.0"
 !define PRODUCT_PUBLISHER "Velutan"
 !define PRODUCT_WEB_SITE "https://github.com/Akileus77/Velutan-image-manager-obs"
 

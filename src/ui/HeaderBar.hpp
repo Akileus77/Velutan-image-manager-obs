@@ -29,6 +29,7 @@ public:
     void setBgTargetName(const QString &name);
     void setOverlayPrefix(const QString &prefix);
     void setAutoStretch(bool enabled);
+    void setGridEnabled(bool enabled);
 
 signals:
     void sceneChanged(const QString &name);
@@ -37,6 +38,9 @@ signals:
     void autoSetupRequested();
     void autoStretchChanged(bool enabled);
     void addAssetRequested();
+    void pinnedSourcesSettingsRequested();
+    void gridToggled(bool enabled);
+    void gridSettingsRequested();
 
 private slots:
     void onSceneActivated(int index);
@@ -51,4 +55,5 @@ private:
     QLineEdit *m_prefixEdit;
     QPushButton *m_autoButton;
     QCheckBox *m_autoStretchCheckbox;
+    QCheckBox *m_gridCheckbox;
 };

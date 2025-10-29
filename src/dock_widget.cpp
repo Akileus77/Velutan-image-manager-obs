@@ -6,6 +6,8 @@
 #include "ui/AssetList.hpp"
 #include "ui/TutorialCard.hpp"
 #include "ui/Toast.hpp"
+#include "ui/PinnedSourcesDialog.hpp"
+#include "ui/GridSettingsDialog.hpp"
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -54,6 +56,9 @@ VelutanDockWidget::VelutanDockWidget(QWidget *parent)
     connect(m_headerBar, &HeaderBar::overlayPrefixChanged, this, &VelutanDockWidget::onOverlayPrefixChanged);
     connect(m_headerBar, &HeaderBar::autoSetupRequested, this, &VelutanDockWidget::onAutoSetup);
     connect(m_headerBar, &HeaderBar::autoStretchChanged, this, &VelutanDockWidget::onAutoStretchChanged);
+    connect(m_headerBar, &HeaderBar::pinnedSourcesSettingsRequested, this, &VelutanDockWidget::onPinnedSourcesSettings);
+    connect(m_headerBar, &HeaderBar::gridToggled, this, &VelutanDockWidget::onGridToggled);
+    connect(m_headerBar, &HeaderBar::gridSettingsRequested, this, &VelutanDockWidget::onGridSettings);
 
     // Tutorial card appears conditionally
     m_tutorial = new TutorialCard(this);
@@ -266,6 +271,7 @@ VelutanDockWidget::VelutanDockWidget(QWidget *parent)
     m_headerBar->setBgTargetName(m_config.bgTargetName);
     m_headerBar->setOverlayPrefix(m_config.overlayPrefix);
     m_headerBar->setAutoStretch(m_config.autoStretchBackgrounds);
+    m_headerBar->setGridEnabled(m_config.gridEnabled);
     
     blog(LOG_INFO, "[Velutan] Header bar configured");
     // Tutorial visibility
@@ -614,12 +620,16 @@ void VelutanDockWidget::onAssetAction(const Asset &asset, const QString &action)
             m_obs.toggleCharacter(m_config.selectedScene, srcName, false);
             m_toast->showMessage("👁 " + asset.name + " hidden");
         }
+        // Ensure pinned sources stay on top
+        m_obs.bringPinnedToFront(m_config.selectedScene, m_config.pinnedSources);
         // Refresh the list to update active status
         refreshLists();
     } else if (action == QLatin1String("front")) {
         // Scene-specific character source name
         QString srcName = m_config.selectedScene + "_" + m_config.overlayPrefix + asset.id;
         m_obs.bringToFront(m_config.selectedScene, srcName);
+        // Ensure pinned sources stay on top
+        m_obs.bringPinnedToFront(m_config.selectedScene, m_config.pinnedSources);
         m_toast->showMessage("⬆ " + asset.name + " brought to front");
     } else if (action == QLatin1String("remove")) {
         // Remove character from scene completely
@@ -638,6 +648,8 @@ void VelutanDockWidget::onAssetAction(const Asset &asset, const QString &action)
             }
             obs_source_release(source);
             m_toast->showMessage("🗑 " + asset.name + " removed from scene");
+            // Ensure pinned sources stay on top
+            m_obs.bringPinnedToFront(m_config.selectedScene, m_config.pinnedSources);
             refreshLists();
         }
     } else if (action == QLatin1String("edit")) {
@@ -819,6 +831,83 @@ void VelutanDockWidget::onAutoStretchChanged(bool enabled)
 {
     m_config.autoStretchBackgrounds = enabled;
     saveConfig();
+}
+
+void VelutanDockWidget::onPinnedSourcesSettings()
+{
+    PinnedSourcesDialog dialog(m_config.pinnedSources, this);
+    if (dialog.exec() == QDialog::Accepted) {
+        m_config.pinnedSources = dialog.getPinnedSources();
+        saveConfig();
+        m_toast->showMessage("✓ Pinned sources updated");
+    }
+}
+
+void VelutanDockWidget::onGridToggled(bool enabled)
+{
+    m_config.gridEnabled = enabled;
+    saveConfig();
+    
+    if (enabled) {
+        // Generate grid image
+        uint32_t width, height;
+        m_obs.getCanvasSize(width, height);
+        
+        QString gridImagePath = m_obs.generateGridImage(width, height, m_config.gridSize,
+                                                         m_config.gridColor, m_config.gridOpacity);
+        
+        if (!gridImagePath.isEmpty()) {
+            m_obs.ensureGridOverlay(m_config.selectedScene, gridImagePath, m_config.gridShowInStream);
+            m_obs.toggleGridOverlay(m_config.selectedScene, true);
+            
+            // If pinned sources exist, bring them to front
+            if (!m_config.pinnedSources.isEmpty()) {
+                m_obs.bringPinnedToFront(m_config.selectedScene, m_config.pinnedSources);
+            }
+            
+            m_toast->showMessage("📐 Grid enabled (" + QString::number(m_config.gridSize) + "px)");
+        } else {
+            m_toast->showMessage("❌ Failed to generate grid");
+        }
+    } else {
+        m_obs.toggleGridOverlay(m_config.selectedScene, false);
+        m_toast->showMessage("📐 Grid disabled");
+    }
+}
+
+void VelutanDockWidget::onGridSettings()
+{
+    GridSettingsDialog dialog(m_config.gridSize, m_config.gridShowInStream, m_config.gridSnapEnabled,
+                               m_config.gridColor, m_config.gridOpacity, this);
+    
+    if (dialog.exec() == QDialog::Accepted) {
+        m_config.gridSize = dialog.getGridSize();
+        m_config.gridShowInStream = dialog.getShowInStream();
+        m_config.gridSnapEnabled = dialog.getSnapEnabled();
+        m_config.gridColor = dialog.getGridColor();
+        m_config.gridOpacity = dialog.getGridOpacity();
+        saveConfig();
+        
+        // If grid is currently enabled, regenerate it
+        if (m_config.gridEnabled) {
+            uint32_t width, height;
+            m_obs.getCanvasSize(width, height);
+            
+            QString gridImagePath = m_obs.generateGridImage(width, height, m_config.gridSize,
+                                                             m_config.gridColor, m_config.gridOpacity);
+            
+            if (!gridImagePath.isEmpty()) {
+                m_obs.ensureGridOverlay(m_config.selectedScene, gridImagePath, m_config.gridShowInStream);
+                
+                // If pinned sources exist, bring them to front
+                if (!m_config.pinnedSources.isEmpty()) {
+                    m_obs.bringPinnedToFront(m_config.selectedScene, m_config.pinnedSources);
+                }
+            }
+        }
+        
+        m_toast->showMessage("✓ Grid settings updated");
+    }
 }
 
 void VelutanDockWidget::updateFilterLists()
