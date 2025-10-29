@@ -1,0 +1,20 @@
+VELUTAN IMAGE MANAGER - MANUAL INSTALLATION
+Version: 
+==========================================
+
+QUICK INSTALLATION:
+
+1. Copy velutan-image-manager.dll to:
+   C:\Program Files\obs-studio\obs-plugins\64bit\
+
+2. Copy Qt6*.dll files to:
+   C:\Program Files\obs-studio\obs-plugins\64bit\
+
+3. Copy data folder to:
+   C:\Program Files\obs-studio\data\obs-plugins\velutan-image-manager\
+
+4. Restart OBS Studio
+
+5. Access via: View -> Docks -> Velutan Image Manager
+
+For detailed instructions, see INSTALL.md
