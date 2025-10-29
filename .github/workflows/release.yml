@@ -1,0 +1,131 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Setup CMake
+      uses: lukka/get-cmake@latest
+      
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v3
+      with:
+        version: '6.7.2'
+        arch: 'win64_msvc2019_64'
+        modules: 'qtbase qtwidgets'
+        
+    - name: Download OBS Studio SDK
+      run: |
+        # Download pre-built OBS SDK or use cached version
+        # This is a placeholder - adjust based on your OBS SDK setup
+        echo "Downloading OBS Studio SDK..."
+        # You may need to build OBS from source or use a pre-built SDK
+        
+    - name: Configure CMake
+      run: |
+        cmake -B build -DCMAKE_BUILD_TYPE=Release
+        
+    - name: Build
+      run: |
+        cmake --build build --config Release
+        
+    - name: Prepare Release Package
+      run: |
+        # Create release directory
+        New-Item -ItemType Directory -Path release -Force
+        
+        # Copy files
+        Copy-Item build/Release/velutan-image-manager.dll release/
+        Copy-Item build/Release/Qt6Core.dll release/ -ErrorAction SilentlyContinue
+        Copy-Item build/Release/Qt6Gui.dll release/ -ErrorAction SilentlyContinue
+        Copy-Item build/Release/Qt6Widgets.dll release/ -ErrorAction SilentlyContinue
+        Copy-Item -Recurse data release/
+        Copy-Item README.md release/
+        Copy-Item INSTALL.md release/
+        Copy-Item LICENSE release/ -ErrorAction SilentlyContinue
+        
+        # Create ZIP
+        Compress-Archive -Path release/* -DestinationPath Velutan-Image-Manager-Manual.zip
+        
+    - name: Calculate checksums
+      run: |
+        Get-FileHash Velutan-Image-Manager-Manual.zip -Algorithm SHA256 | 
+          Select-Object Hash, @{Name='File';Expression={'Velutan-Image-Manager-Manual.zip'}} | 
+          ConvertTo-Csv -NoTypeInformation | 
+          Select-Object -Skip 1 | 
+          Out-File -FilePath SHA256SUMS.txt
+          
+    - name: Extract version from tag
+      id: get_version
+      run: |
+        $version = "${{ github.ref }}" -replace 'refs/tags/v', ''
+        echo "VERSION=$version" >> $env:GITHUB_OUTPUT
+      shell: pwsh
+      
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        name: Velutan Image Manager v${{ steps.get_version.outputs.VERSION }}
+        body: |
+          ## 🎉 Velutan Image Manager v${{ steps.get_version.outputs.VERSION }}
+          
+          ### 📦 Installation
+          
+          **Recommended:**
+          1. Download `Velutan-Image-Manager-Manual.zip`
+          2. Extract and follow instructions in `INSTALL.md`
+          3. Restart OBS Studio
+          
+          **Quick Install:**
+          ```
+          1. Copy velutan-image-manager.dll → C:\Program Files\obs-studio\obs-plugins\64bit\
+          2. Copy Qt6*.dll files → C:\Program Files\obs-studio\obs-plugins\64bit\
+          3. Copy data folder → C:\Program Files\obs-studio\data\obs-plugins\velutan-image-manager\
+          4. Restart OBS
+          ```
+          
+          ### 📋 Requirements
+          - OBS Studio 30.0+ (Qt6 version)
+          - Windows 10/11 (64-bit)
+          
+          ### 📖 Documentation
+          - See `README.md` for full documentation
+          - See `INSTALL.md` for detailed installation guide
+          
+          ### ✨ Features
+          - Scene-specific background management
+          - Active assets automatically move to top
+          - Theme-based organization
+          - Tag filtering
+          - Asset editing and deletion
+          - Modern dark theme UI
+          
+          ### 🔐 Verification
+          SHA256 checksums are available in `SHA256SUMS.txt`
+          
+          ---
+          
+          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${{ github.event.before }}...${{ github.sha }}
+        files: |
+          Velutan-Image-Manager-Manual.zip
+          SHA256SUMS.txt
+          README.md
+          INSTALL.md
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

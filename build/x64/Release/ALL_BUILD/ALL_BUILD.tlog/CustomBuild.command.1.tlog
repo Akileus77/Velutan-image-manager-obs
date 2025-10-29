@@ -1,0 +1,10 @@
+^C:\USERS\AKIKA\DOWNLOADS\VELUTAN-IMAGE-MANAGER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Akika/Downloads/velutan-image-manager -BC:/Users/Akika/Downloads/velutan-image-manager/build --check-stamp-file C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

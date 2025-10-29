@@ -1,0 +1,3253 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+      Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+      
+      Oluşturma başlatıldı: 29.10.2025 10:51:06.
+      1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsayılan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini oluşturuluyor.
+        "Debug\\CompilerIdCXX.tlog\\" dizini oluşturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildiği için "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" oluşturuluyor.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue "CMakeCXXCompilerId.cpp"
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 "Debug\\CMakeCXXCompilerId.obj"
+        CompilerIdCXX.vcxproj -> C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" dosyası siliniyor.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" öğesine erişiliyor.
+      "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+      
+      Oluşturma başarılı oldu.
+          0 Uyarı
+          0 Hata
+      
+      Geçen Süre 00:00:00.94
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
+      - "C:/Program Files/cursor/resources/app/bin/lld-link"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Akika/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Akika/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Akika/AppData/Roaming/npm/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/cursor/resources/app/bin/mt.com"
+      - "C:/Program Files/cursor/resources/app/bin/mt.exe"
+      - "C:/Program Files/cursor/resources/app/bin/mt"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Akika/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Akika/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Akika/AppData/Roaming/npm/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/bin/"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/sbin/"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+    searched_directories:
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/bin/rc.com"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/bin/rc.exe"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/bin/rc"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/sbin/rc.com"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/sbin/rc.exe"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/sbin/rc"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/rc.com"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/rc.exe"
+      - "C:/Users/Akika/Downloads/obs-studio/build-sdk/.deps/obs-deps-qt6-2025-08-23-x64/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/cursor/resources/app/bin/rc.com"
+      - "C:/Program Files/cursor/resources/app/bin/rc.exe"
+      - "C:/Program Files/cursor/resources/app/bin/rc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Akika/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Akika/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Akika/AppData/Roaming/npm/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/rc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/rc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/rc"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/rc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/rc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/rc"
+      - "C:/Program Files (x86)/velutan-image-manager/rc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/rc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/rc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-rc0xk3"
+      binary: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-rc0xk3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-rc0xk3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_76667.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+        Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+        
+        Oluşturma başlatıldı: 29.10.2025 10:51:08.
+        1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\cmTC_76667.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\Debug\\" dizini oluşturuluyor.
+          "cmTC_76667.dir\\Debug\\cmTC_76667.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_76667.dir\\Debug\\cmTC_76667.tlog\\unsuccessfulbuild" oluşturuluyor.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_76667.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\cmTC_76667.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
+          CMakeCXXCompilerABI.cpp
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_76667.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\cmTC_76667.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\Debug\\cmTC_76667.exe" /INCREMENTAL /ILK:"cmTC_76667.dir\\Debug\\cmTC_76667.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-rc0xk3/Debug/cmTC_76667.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-rc0xk3/Debug/cmTC_76667.lib" /MACHINE:X64  /machine:x64 "cmTC_76667.dir\\Debug\\CMakeCXXCompilerABI.obj"
+          cmTC_76667.vcxproj -> C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\Debug\\cmTC_76667.exe
+        FinalizeBuildStatus:
+          "cmTC_76667.dir\\Debug\\cmTC_76667.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_76667.dir\\Debug\\cmTC_76667.tlog\\cmTC_76667.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rc0xk3\\cmTC_76667.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+        
+        Oluşturma başarılı oldu.
+            0 Uyarı
+            0 Hata
+        
+        Geçen Süre 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6"
+    components:
+      -
+        name: "Widgets"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/cursor/resources/app/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/cursor/resources/app/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Python313/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Roaming/npm/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/AppData/Roaming/npm/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Users\\Akika\\Downloads\\obs-studio\\build-sdk\\.deps\\obs-deps-qt6-2025-08-23-x64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:37 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-nmhzhz"
+      binary: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-nmhzhz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-nmhzhz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e189b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+        Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+        
+        Oluşturma başlatıldı: 29.10.2025 10:52:41.
+        1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\Debug\\" dizini oluşturuluyor.
+          "cmTC_e189b.dir\\Debug\\cmTC_e189b.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_e189b.dir\\Debug\\cmTC_e189b.tlog\\unsuccessfulbuild" oluşturuluyor.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_e189b.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\src.cxx"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
+          src.cxx
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CMAKE_HAVE_LIBC_PTHREAD" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_e189b.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\src.cxx"
+        C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\src.cxx(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.vcxproj]
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.vcxproj" (varsayılan hedef) (1) ->
+        (ClCompile hedefi) -> 
+          C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\src.cxx(1,10): fatal error C1083: içerme dosyası açılamıyor: 'pthread.h': No such file or directory [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmhzhz\\cmTC_e189b.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.73
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:37 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-ktxaya"
+      binary: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-ktxaya"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-ktxaya'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_ec7d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+        Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+        
+        Oluşturma başlatıldı: 29.10.2025 10:52:42.
+        1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\Debug\\" dizini oluşturuluyor.
+          "cmTC_ec7d6.dir\\Debug\\cmTC_ec7d6.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_ec7d6.dir\\Debug\\cmTC_ec7d6.tlog\\unsuccessfulbuild" oluşturuluyor.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_ec7d6.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\CheckFunctionExists.cxx"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
+          CheckFunctionExists.cxx
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_ec7d6.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\CheckFunctionExists.cxx"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\Debug\\cmTC_ec7d6.exe" /INCREMENTAL /ILK:"cmTC_ec7d6.dir\\Debug\\cmTC_ec7d6.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-ktxaya/Debug/cmTC_ec7d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-ktxaya/Debug/cmTC_ec7d6.lib" /MACHINE:X64  /machine:x64 cmTC_ec7d6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.vcxproj]
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.vcxproj" (varsayılan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' dosyası açılamıyor [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ktxaya\\cmTC_ec7d6.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:37 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-zs7o4a"
+      binary: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-zs7o4a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-zs7o4a'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e81c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+        Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+        
+        Oluşturma başlatıldı: 29.10.2025 10:52:42.
+        1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\Debug\\" dizini oluşturuluyor.
+          "cmTC_e81c5.dir\\Debug\\cmTC_e81c5.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_e81c5.dir\\Debug\\cmTC_e81c5.tlog\\unsuccessfulbuild" oluşturuluyor.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_e81c5.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\CheckFunctionExists.cxx"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
+          CheckFunctionExists.cxx
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "CHECK_FUNCTION_EXISTS=pthread_create" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_e81c5.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\CheckFunctionExists.cxx"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\Debug\\cmTC_e81c5.exe" /INCREMENTAL /ILK:"cmTC_e81c5.dir\\Debug\\cmTC_e81c5.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-zs7o4a/Debug/cmTC_e81c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-zs7o4a/Debug/cmTC_e81c5.lib" /MACHINE:X64  /machine:x64 cmTC_e81c5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.vcxproj]
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler) -- BAŞARISIZ OLDU.
+        
+        Oluşturma BAŞARISIZ OLDU.
+        
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.vcxproj" (varsayılan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' dosyası açılamıyor [C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zs7o4a\\cmTC_e81c5.vcxproj]
+        
+            0 Uyarı
+            1 Hata
+        
+        Geçen Süre 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:12 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:65 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:37 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6CoreTools"
+    configs:
+      -
+        filename: "Qt6CoreToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6coretools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6CoreTools"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_MODULE_PATH:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6"
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:12 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:65 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:37 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6GuiTools"
+    configs:
+      -
+        filename: "Qt6GuiToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6guitools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6GuiTools"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_MODULE_PATH:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6"
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:65 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:37 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6WidgetsTools"
+    configs:
+      -
+        filename: "Qt6WidgetsToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgetstools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6WidgetsTools"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-119zut"
+      binary: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-119zut"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-119zut'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_11e25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        .NET Framework için Microsoft (R) Build Engine sürüm 16.11.6+a918ceb31
+        Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+        
+        Oluşturma başlatıldı: 29.10.2025 10:52:44.
+        1 düğümünde "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\cmTC_11e25.vcxproj" projesi (varsayılan hedefler).
+        PrepareForBuild:
+          "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\Debug\\" dizini oluşturuluyor.
+          "cmTC_11e25.dir\\Debug\\cmTC_11e25.tlog\\" dizini oluşturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildiği için "cmTC_11e25.dir\\Debug\\cmTC_11e25.tlog\\unsuccessfulbuild" oluşturuluyor.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "HAVE_STDATOMIC" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_11e25.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\cmTC_11e25.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\src.cxx"
+          x64 için Microsoft (R) C/C++ İyileştirmeli Derleyicisi Sürüm 19.29.30159
+          src.cxx
+          Telif Hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "WIN32" /D "_WINDOWS" /D "HAVE_STDATOMIC" /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_11e25.dir\\Debug\\\\" /Fd"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\cmTC_11e25.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\src.cxx"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\Debug\\cmTC_11e25.exe" /INCREMENTAL /ILK:"cmTC_11e25.dir\\Debug\\cmTC_11e25.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-119zut/Debug/cmTC_11e25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/CMakeScratch/TryCompile-119zut/Debug/cmTC_11e25.lib" /MACHINE:X64  /machine:x64 cmTC_11e25.dir\\Debug\\src.obj
+          cmTC_11e25.vcxproj -> C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\Debug\\cmTC_11e25.exe
+        FinalizeBuildStatus:
+          "cmTC_11e25.dir\\Debug\\cmTC_11e25.tlog\\unsuccessfulbuild" dosyası siliniyor.
+          "cmTC_11e25.dir\\Debug\\cmTC_11e25.tlog\\cmTC_11e25.lastbuildstate" öğesine erişiliyor.
+        "C:\\Users\\Akika\\Downloads\\velutan-image-manager\\build\\CMakeFiles\\CMakeScratch\\TryCompile-119zut\\cmTC_11e25.vcxproj" Projesini Oluşturma İşlemi Tamamlandı (varsayılan hedefler).
+        
+        Oluşturma başarılı oldu.
+            0 Uyarı
+            0 Hata
+        
+        Geçen Süre 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6ZlibPrivate"
+    configs:
+      -
+        filename: "Qt6ZlibConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6zlib-config.cmake"
+        kind: "cmake"
+      -
+        filename: "Qt6ZlibPrivateConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6zlibprivate-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Zlib"
+        - "Qt6ZlibPrivate"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/.."
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6ZlibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6zlib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6ZlibPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6zlibprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6ZlibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6zlib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6ZlibPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6zlibprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/qt6zlib-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6EntryPointPrivate"
+    configs:
+      -
+        filename: "Qt6EntryPointConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6entrypoint-config.cmake"
+        kind: "cmake"
+      -
+        filename: "Qt6EntryPointPrivateConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6entrypointprivate-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6EntryPoint"
+        - "Qt6EntryPointPrivate"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/.."
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6EntryPointConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6entrypoint-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6EntryPointConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6entrypoint-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate/qt6entrypoint-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:2899 (find_program)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:30 (_qt_internal_setup_deploy_support)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:136 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    mode: "program"
+    variable: "WINDEPLOYQT_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windeployqt"
+    candidate_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "C:/Qt/6.7.2/msvc2019_64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+    searched_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/windeployqt.com"
+    found: "C:/Qt/6.7.2/msvc2019_64/bin/windeployqt.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6Core"
+    configs:
+      -
+        filename: "Qt6CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Core"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6CoreTools/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6CoreTools/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindVulkan.cmake:392 (find_path)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/include/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/include/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+    searched_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/include/vulkan/vulkan.h"
+      - "C:/Qt/6.7.2/msvc2019_64/vulkan/vulkan.h"
+      - "/include/vulkan/vulkan.h"
+      - "C:/Windows/System32/vulkan/vulkan.h"
+      - "C:/Windows/vulkan/vulkan.h"
+      - "C:/Windows/System32/wbem/vulkan/vulkan.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/vulkan/vulkan.h"
+      - "C:/Windows/System32/OpenSSH/vulkan/vulkan.h"
+      - "C:/Program Files/Git/cmd/vulkan/vulkan.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/vulkan/vulkan.h"
+      - "C:/Program Files/nodejs/vulkan/vulkan.h"
+      - "C:/ProgramData/chocolatey/bin/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
+      - "C:/Program Files/cursor/resources/app/bin/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
+      - "C:/Users/Akika/AppData/Roaming/npm/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/bin/vulkan/vulkan.h"
+      - "C:/Program Files/include/vulkan/vulkan.h"
+      - "C:/Program Files/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/include/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/velutan-image-manager/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/velutan-image-manager/vulkan/vulkan.h"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindVulkan.cmake:399 (find_library)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/lib/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "/lib/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/lib/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+    searched_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/lib/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "/lib/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/lib/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/velutan-image-manager/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindVulkan.cmake:407 (find_program)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+    searched_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslc.com"
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslc.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslc"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslc.com"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslc.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslc"
+      - "C:/Qt/6.7.2/msvc2019_64/glslc.com"
+      - "C:/Qt/6.7.2/msvc2019_64/glslc.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/glslc"
+      - "/bin/glslc.com"
+      - "/bin/glslc.exe"
+      - "/bin/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc"
+      - "C:/Program Files/nodejs/glslc.com"
+      - "C:/Program Files/nodejs/glslc.exe"
+      - "C:/Program Files/nodejs/glslc"
+      - "C:/ProgramData/chocolatey/bin/glslc.com"
+      - "C:/ProgramData/chocolatey/bin/glslc.exe"
+      - "C:/ProgramData/chocolatey/bin/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Program Files/cursor/resources/app/bin/glslc.com"
+      - "C:/Program Files/cursor/resources/app/bin/glslc.exe"
+      - "C:/Program Files/cursor/resources/app/bin/glslc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslc"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslc"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslc.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslc.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslc"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslc.com"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslc.exe"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/CMake/sbin/glslc.com"
+      - "C:/Program Files/CMake/sbin/glslc.exe"
+      - "C:/Program Files/CMake/sbin/glslc"
+      - "C:/Program Files/CMake/glslc.com"
+      - "C:/Program Files/CMake/glslc.exe"
+      - "C:/Program Files/CMake/glslc"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslc"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslc"
+      - "C:/Program Files (x86)/velutan-image-manager/glslc.com"
+      - "C:/Program Files (x86)/velutan-image-manager/glslc.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/glslc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindVulkan.cmake:415 (find_program)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/"
+      - "C:/Qt/6.7.2/msvc2019_64/"
+      - "/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/cursor/resources/app/bin/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Akika/AppData/Roaming/npm/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/"
+      - "C:/Program Files (x86)/velutan-image-manager/"
+    searched_directories:
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslangValidator.com"
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/bin/glslangValidator"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslangValidator.com"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslangValidator.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/sbin/glslangValidator"
+      - "C:/Qt/6.7.2/msvc2019_64/glslangValidator.com"
+      - "C:/Qt/6.7.2/msvc2019_64/glslangValidator.exe"
+      - "C:/Qt/6.7.2/msvc2019_64/glslangValidator"
+      - "/bin/glslangValidator.com"
+      - "/bin/glslangValidator.exe"
+      - "/bin/glslangValidator"
+      - "C:/Windows/System32/glslangValidator.com"
+      - "C:/Windows/System32/glslangValidator.exe"
+      - "C:/Windows/System32/glslangValidator"
+      - "C:/Windows/glslangValidator.com"
+      - "C:/Windows/glslangValidator.exe"
+      - "C:/Windows/glslangValidator"
+      - "C:/Windows/System32/wbem/glslangValidator.com"
+      - "C:/Windows/System32/wbem/glslangValidator.exe"
+      - "C:/Windows/System32/wbem/glslangValidator"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Windows/System32/OpenSSH/glslangValidator"
+      - "C:/Program Files/Git/cmd/glslangValidator.com"
+      - "C:/Program Files/Git/cmd/glslangValidator.exe"
+      - "C:/Program Files/Git/cmd/glslangValidator"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator"
+      - "C:/Program Files/nodejs/glslangValidator.com"
+      - "C:/Program Files/nodejs/glslangValidator.exe"
+      - "C:/Program Files/nodejs/glslangValidator"
+      - "C:/ProgramData/chocolatey/bin/glslangValidator.com"
+      - "C:/ProgramData/chocolatey/bin/glslangValidator.exe"
+      - "C:/ProgramData/chocolatey/bin/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
+      - "C:/Program Files/cursor/resources/app/bin/glslangValidator.com"
+      - "C:/Program Files/cursor/resources/app/bin/glslangValidator.exe"
+      - "C:/Program Files/cursor/resources/app/bin/glslangValidator"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/Scripts/glslangValidator"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Python313/glslangValidator"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Python/Launcher/glslangValidator"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Local/Microsoft/WindowsApps/glslangValidator"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslangValidator.com"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslangValidator.exe"
+      - "C:/Users/Akika/AppData/Roaming/npm/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/CMake/sbin/glslangValidator"
+      - "C:/Program Files/CMake/glslangValidator.com"
+      - "C:/Program Files/CMake/glslangValidator.exe"
+      - "C:/Program Files/CMake/glslangValidator"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/bin/glslangValidator"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/sbin/glslangValidator"
+      - "C:/Program Files (x86)/velutan-image-manager/glslangValidator.com"
+      - "C:/Program Files (x86)/velutan-image-manager/glslangValidator.exe"
+      - "C:/Program Files (x86)/velutan-image-manager/glslangValidator"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6Gui"
+    configs:
+      -
+        filename: "Qt6GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.7.2"
+      version_complete: "6.7.2"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Gui"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6GuiTools/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6GuiTools/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Qt6Widgets"
+    configs:
+      -
+        filename: "Qt6WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Widgets"
+      search_paths:
+        - "C:/Qt/6.7.2/msvc2019_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6WidgetsTools/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      mode: "config"
+      version: "6.7.2"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.7.2\\msvc2019_64"
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Akika\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Akika\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Akika\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/velutan-image-manager"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/velutan-image-manager"
+...

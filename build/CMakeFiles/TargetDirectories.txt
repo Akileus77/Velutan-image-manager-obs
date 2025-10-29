@@ -1,0 +1,4 @@
+C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/velutan-image-manager.dir
+C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/INSTALL.dir
+C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Akika/Downloads/velutan-image-manager/build/CMakeFiles/ZERO_CHECK.dir
