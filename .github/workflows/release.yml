@@ -25,7 +25,6 @@ jobs:
       with:
         version: '6.7.2'
         arch: 'win64_msvc2019_64'
-        modules: 'qtbase qtwidgets'
         
     - name: Download OBS Studio SDK
       run: |
